@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="app1.js" type="module"></script>
+</head>
+
+<body>
+    <h1>Minesweeper</h1>
+    <div class="menu">
+        <div class="settings">
+            <input type="number" name="Größe" id="size" placeholder="Größe des Feldes" min="9">
+        </div>
+        <span id="flags-left" data-mine-count></span>
+        <button id="newGame">&#x1F642;</button>
+        <span id="timer">0</span>
+    </div>
+    <div class="board"></div>
+</body>
+
+</html>
